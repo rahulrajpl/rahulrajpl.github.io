@@ -1,0 +1,81 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Government of India
+    url: "https://www.india.gov.in"
+    location: India
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Director(Technical)
+    start: Mar 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Leads innovation and quality with a team of 34 specialists.
+    - Maintenance and upkeep of communication equipment. 
+    - Ensure efficient Power Generation and Distribution. 
+    - IT and Cybersecurity.
+
+  - designation: Trainer/ Instructor (IT/ Security/ Embedded Systems)
+    start: Aug 2020
+    end: Feb 2023
+    responsibilities:
+    - Trained over 2000 people in domain of IT, Embedded System and Cybersecurity.
+    - Organised three national level workshops in Artificial Intelligence and Data Science.
+    - Guided several software and IT projects in AI and Datascience.
+
+
+  - designation: Deputy Director (IT & InfoSec)
+    start: May 2015
+    end: Jul 2018
+    responsibilities:
+    - Provided IT and ITeS for over 500 users geographically spread across 11000 acres.
+    - Provided Information Security cover to safeguard highly confidential digital assets.
+    - Concluded several temporary contractural agreements to mitigate manpower shortfalls.
+    - Undertook several projects worth ~180 Crores for development of Digital services.
+
+  - designation: Asst Engineer (Electrical & IT)
+    start: Oct 2013
+    end: Apr 2015
+    responsibilities:
+    - Maintenance of various Electrical Equipment.
+    - IT Asset Life Cycle Management
+  
+
+- company:
+    name: Congnizant Technology Solutions (CTS)
+    url: "https://www.cognizant.com/in/en"
+    location: Chennai
+    # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Programmer Analyst
+    start: Feb 2011
+    end: Jun 2011
+    responsibilities:
+    - Administration/ Debugging/ Troubleshooting of all internal applications of Company, mostly backend SQL related.
+
+- company:
+    name: Bobcares Inc.
+    url: "https://www.bobcares.com"
+    location: Kochi, Kerala
+    # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: System Administrator
+    start: Oct 2010
+    end: Jan 2011
+    responsibilities:
+    - Remote technical support to webhosting companies.
+    - Troubleshooting hosting errors.
+    - Handling customer queries wrt hosting services.

@@ -1,0 +1,19 @@
+# some information about you
+name: "Rahul Raj"
+nickname: "Rahul"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/rahul.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "rahulrajpl@gmail.com"
+  phone: "on request"
+  github: rahulrajpl
+  linkedin: rahul123
+
+# some summary about what you do
+summary:
+  - I love Computers
+  - I love Technology
+  - I love to Travel
+  - All that is Professional in me, is here

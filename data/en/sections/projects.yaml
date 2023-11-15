@@ -1,0 +1,103 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Python
+  filter: "python"
+- name: Security
+  filter: "security"
+- name: Web
+  filter: "web"
+- name: Analytics
+  filter: "analytics"
+- name: Android
+  filter: "android"
+- name: Blockchain
+  filter: "blockchain"
+
+# your projects
+projects:
+- name: Netizenship
+  logo: /images/sections/projects/kubernetes.png
+  role: Developer
+  timeline: "March 2018 - Present"
+  repo: https://github.com/rahulrajpl/netizenship # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: A passive OSINT tool for username recon. Tool is written in python with nil dependency of APIs of any website, whatsoever.
+  tags: ["python", "security"]
+
+- name: Jekyll Static Blog
+  logo: /images/sections/projects/jekyll.png
+  role: Developer
+  timeline: "Jun 2018 - Dec 2021"
+  # repo: https://github.com/tensorflow/tensorflow
+  url: "https://randomwalk.in/rahulrajpl.github.io.jekyll/"
+  summary: My Personal static blog site created using Jekyll. Retired this when I moved the contents to Hugo.
+  tags: ["web"]
+
+- name: Network Intrusion Detector 
+  logo: /images/sections/projects/malware.gif
+  role: Developer
+  timeline: "Jul - Sep 2019"
+  url: "https://colab.research.google.com/drive/1GrSVUY3rcwYCd-xp5juUjQ9Wbg_9Kq1i"
+  summary: Network Intrusion Detector using Machine Learning on the [KDD Cup99 dataset](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html). Program classifies incoming connections as good or bad
+  tags: ["ML","security"]
+
+- name: PyPASAD
+  logo: /images/sections/projects/scada.jpeg
+  role: Developer
+  timeline: "Oct 2019"
+  repo: https://github.com/rahulrajpl/PyPASAD
+  #url: ""
+  summary: This is a python implementation of the original work in the paper ‘Truth will out’, Departure-Based Process-Level Detection of Stealthy Attacks on Control Systems.
+  tags: ["python", "security"]
+
+- name: Covid19India
+  logo: /images/sections/projects/covid.png
+  role: Developer
+  timeline: "Mar 2020"
+  url: "https://randomwalk.in/covid19India/"
+  summary: An interactive data analytics on Covid-19 Pandemic in India using GapMinder.
+  tags: ["analytics", "web"]
+
+- name: WExDA
+  logo: /images/sections/projects/wexda.png
+  role: Developer
+  timeline: "Jun 2020"
+  repo: https://github.com/rahulrajpl/wexda
+  summary: WExDA is a web based data exploration tool primarily useful for data preperation/ data analysis stage. This automates the EDA via web ui and is built using streamlit.
+  tags: ["analytics", "web"]
+
+- name: RemindMe
+  logo: /images/sections/projects/remindme.png
+  role: Developer
+  timeline: "Mar 2019"
+  repo: https://github.com/rahulrajpl/ReminderApp
+  summary: An attempt to get feet wet with Android Development. One unique feature added is the location service. Demo of the app can be found [here](https://www.youtube.com/watch?v=ge-9HVIbzHA).
+  tags: ["android"]
+
+- name: Partisan Bias in News
+  logo: /images/sections/projects/bias.png
+  role: Developer
+  timeline: "Sep 2018"
+  repo: https://github.com/rahulrajpl/Media-Political-Bias
+  summary: The project was aimed at using various data mining techniques to analyse the partisan bias on Indian News media. Data was generated through webscrapping and insights were drawn from analytics.
+  tags: ["analytics", "web"]
+
+- name: EmployeeFeedback DApp
+  logo: /images/sections/projects/ethereum.jpg
+  role: Contributor
+  timeline: "Apr 2019"
+  repo: https://github.com/ABHISHEKVALSAN/EtherFeeds/tree/master/etherfeeds
+  summary: Keeping in mind privacy, transparency, fairness and absolute immunity to bias and manipulation, this DApp is in Etherium blockchain using solidarity smart contracts. Demo vide can be found [here](https://www.youtube.com/watch?v=-9j-L9PMPzo&t=125s)
+  tags: ["blockchain", "web"]
