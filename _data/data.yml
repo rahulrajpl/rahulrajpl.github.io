@@ -45,25 +45,21 @@ profile: |
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
+  - role: Military Officer
+    time: Oct 2013 - Present
     company: Ministry of Defense (Govt. of India)
     details: |
       A seasoned military leader with diverse experence of over 13 years in Operations, Projects, HR, Admin including IT and Information Security. Currently serving as Director (Technical), leading a team of specialists to drive innovation and ensure operational excellence. Previously held the position of Deputy Director (IT & InfoSec), overseeing IT services for 500+ users and implementing robust cybersecurity measures. Has trained over 2000 individuals in IT, cybersecurity, and AI, and led several large-scale digital transformation projects worth over 180 Crores.
     technologies_used: | 
       Go, Angular, Typescript, C++
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Programmer Analyst
+    time: Feb 2011 - Jun 2011, Chennai
+    company: Congnizant Technology Solutions (CTS)
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Administration/ Debugging/ Troubleshooting of all internal applications of Company, mostly backend SQL related.
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      C#, Web Technologies, ASP.NET, MSSQL
 
 publications:
   - title: Random title of paper. An interesting one.
