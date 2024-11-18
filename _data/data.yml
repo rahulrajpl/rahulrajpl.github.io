@@ -41,7 +41,7 @@ skills:
 
 # Profile
 profile: |
-  Military Officer with 14 years of diverse leadership experience in Operations, Administration, HR and Training.
+  Military Officer with 14 years of diverse leadership experience in Operations, HRM, Admin and Training, specialised in IT and Information Security.
 
 # Experience
 experience:
@@ -51,7 +51,7 @@ experience:
     details: |
       A seasoned military leader with diverse experence of over 13 years in Operations, Projects, HR, Admin including IT and Information Security. Currently serving as Director (Technical), leading a team of specialists to drive innovation and ensure operational excellence. Previously held the position of Deputy Director (IT & InfoSec), overseeing IT services for 500+ users and implementing robust cybersecurity measures. Has trained over 2000 individuals in IT, cybersecurity, and AI, and led several large-scale digital transformation projects worth over 180 Crores.
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      Project Management, Analytical Skills, HRM & Admin
   
   - role: Programmer Analyst
     time: Feb 2011 - Jun 2011, Chennai
@@ -59,18 +59,18 @@ experience:
     details: |
       Administration/ Debugging/ Troubleshooting of all internal applications of Company, mostly backend SQL related.
     technologies_used: | 
-      C#, Web Technologies, ASP.NET, MSSQL
+      Web Technologies, ASP.NET, C#, MSSQL
 
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - title: Process Aware Stealthy Attack Detection in Industrial Control Systems.
+    link: "https://zenodo.org/record/6375751#.Y2dUR2lX6Nw"
+    authors: Rahul Raj, Etienne B. Roesch, Jaime Aria, Gabriel Ne
+    conference: OpenAIRE, 2022
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+  - title: Diffusion Map for Manifold Learning, Theory and Implementation.
+    link: "https://www.kdnuggets.com/2020/03/diffusion-map-manifold-learning-theory-implementation.html"
+    authors: Rahul Raj
+    conference: KDNuggets, 2020
 
 projects:
   - title: Cool Project 
