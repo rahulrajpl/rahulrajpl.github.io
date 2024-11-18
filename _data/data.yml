@@ -47,13 +47,9 @@ profile: |
 experience:
   - role: Software Engineer
     time: 2020-Present
-    company: Google
+    company: Ministry of Defense (Govt. of India)
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      A seasoned military leader with diverse experence of over 13 years in Operations, Projects, HR, Admin including IT and Information Security. Currently serving as Director (Technical), leading a team of specialists to drive innovation and ensure operational excellence. Previously held the position of Deputy Director (IT & InfoSec), overseeing IT services for 500+ users and implementing robust cybersecurity measures. Has trained over 2000 individuals in IT, cybersecurity, and AI, and led several large-scale digital transformation projects worth over 180 Crores.
     technologies_used: | 
       Go, Angular, Typescript, C++
   
