@@ -13,17 +13,17 @@ contact:
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Hindi
+  - idiom: Malayalam
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: MTech in Computer Science
+    time: 2018-2020
+    university: IIT Kanpur
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: BTech in Computer Science
+    time: 2006-2010
+    university: Cochin University
 
 skills:
   - category: Backend
@@ -41,11 +41,9 @@ skills:
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Military Officer with over 14 years of diverse experience in leadership roles encompassing Project Management, IT Operations Management, 
+  Training, HRM and Administration. Core skills include AI, Cybersecurity and IT Operations. Presently transitioning to Cybersecurity and Leadership roles to leverage
+  core skills 
 
 # Experience
 experience:
