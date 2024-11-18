@@ -26,10 +26,10 @@ education:
     university: Cochin University
 
 skills:
-  - category: Backend
+  - category: Awards & Recognition
     skill: 
-      - Go
-      - Rust
+      - Commendation by FOC-in-C(West) 2017
+      - Commendation by FOC-in-C(South) 2023
   - category: Frontend
     skill:
       - React
