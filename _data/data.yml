@@ -1,29 +1,29 @@
-name: Rahul Raj
+name: John Doe
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
   email: info@johndoe.com
-  github: rahulrajpl
-  linkedin: rahul-r-909409184
+  github: johndoe
+  linkedin: johndoe
   phone: 
   gitlab: 
   twitter: 
 
 languages:
   - idiom: English
-  - idiom: Hindi
-  - idiom: Malayalam
+  - idiom: Russian
+  - idiom: French
 
 education:
-  - degree: MTech in Computer Science
-    time: 2018-2020
-    university: IIT Kanpur
+  - degree: MSc in Informatics
+    time: 2014-2016
+    university: Ionian University
 
-  - degree: BTech in Computer Science
-    time: 2006-2010
-    university: Cochin University
+  - degree: BSc in Computer Science
+    time: 2010-2014
+    university: Ionian University
 
 skills:
   - category: Backend
