@@ -4,7 +4,7 @@
       <h1 class="title">{{ .Title }}</h1>
       {{ with .Params.subtitle }}<h3 class="subtitle">{{ . }}</h3>{{ end }}
       {{ partial "postMetaDetailed.html" . }}
-      <div class="content">{{ .Content }}</div>
+      <div class="content" style="text-align: justify;">{{ .Content }}</div>
     </article>
   </main>
 {{ end }}
