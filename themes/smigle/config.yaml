@@ -22,9 +22,9 @@ menu:
       name: Publications
       url: /publications/
       weight: 4
-    - identifier: posts
-      name: Posts
-      url: /posts/
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 
     - identifier: categories
       name: Categories
