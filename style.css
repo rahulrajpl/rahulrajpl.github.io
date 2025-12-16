@@ -1,0 +1,250 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --accent-color: #555555;
+    --link-color: #000000;
+    --link-hover-color: #666666;
+    --border-color: #eaeaea;
+    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --spacing-unit: 1.5rem;
+    --container-width: 800px;
+}
+
+/* Dark Mode Preference */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --text-color: #e0e0e0;
+        --accent-color: #a0a0a0;
+        --link-color: #ffffff;
+        --link-hover-color: #bbbbbb;
+        --border-color: #333333;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-unit);
+}
+
+/* Header */
+.site-header {
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid transparent; /* Keep layout stable */
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list a {
+    font-size: 0.95rem;
+    color: var(--accent-color);
+}
+
+.nav-list a:hover, .nav-list a.active {
+    color: var(--text-color);
+}
+
+.mobile-nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bar {
+    width: 20px;
+    height: 2px;
+    background-color: var(--text-color);
+    transition: 0.3s;
+}
+
+/* Main Content */
+.main-content {
+    min-height: 60vh;
+    padding-bottom: 4rem;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    max-width: 65ch; /* Optimal reading length */
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    margin-bottom: 2rem;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2px;
+}
+
+.social-links a:hover {
+    border-bottom-color: var(--text-color);
+}
+
+/* Lists (Experience, Projects, Publications) */
+.item-list {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.item-entry {
+    margin-bottom: 3rem;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.item-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.item-meta {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+}
+
+.item-description {
+    font-size: 0.95rem;
+    color: var(--accent-color);
+}
+
+.item-description ul {
+    list-style: disc;
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.item-description li {
+    margin-bottom: 0.3rem;
+}
+
+/* Footer */
+.site-footer {
+    padding: 3rem 0;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.85rem;
+    color: var(--accent-color);
+    text-align: left;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .site-header .container {
+        /* position: relative; */
+    }
+
+    .mobile-nav-toggle {
+        display: flex;
+        z-index: 100;
+    }
+
+    .nav-list {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 70%;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        padding: 5rem 2rem;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.05);
+        z-index: 50;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
